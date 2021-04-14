@@ -1,2 +1,2 @@
 # betterdiscussion
-a platform to discuss the content of any website
+a platform to anonymously and without being censored discuss the content of any website
