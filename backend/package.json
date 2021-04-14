@@ -1,0 +1,21 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./dist/index.js",
+		"build": "tsc --build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"lambert-db": "^1.2.1",
+		"lambert-server": "^1.1.7",
+		"missing-native-js-functions": "^1.2.6"
+	},
+	"devDependencies": {
+		"@types/node": "^14.14.37"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"include": ["src/**/*.ts"],
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "commonjs",
+		"declaration": true,
+		"sourceMap": true,
+		"declarationMap": false,
+		"outDir": "./dist/",
+		"rootDir": "./src/",
+		"skipLibCheck": true
+	}
+}
