@@ -3,8 +3,7 @@ import { Container } from "@material-ui/core";
 function Faq() {
 	return (
 		<Container maxWidth="md">
-			<h1>This is a home page</h1>
-			<h2>Material-UI Navbar Header</h2>
+			<h1>FAQ</h1>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip

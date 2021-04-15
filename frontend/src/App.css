@@ -1,3 +1,8 @@
+:root {
+	--primary: #3f51b5;
+	--secondary: "";
+}
+
 * > body {
 	font-family: "Roboto", sans-serif;
 	margin: 0;
@@ -14,4 +19,15 @@ a:visited {
 
 .App {
 	text-align: center;
+}
+.Footer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-top: 2rem;
+	padding-bottom: 0.75rem;
+	color: grey;
+}
+.Footer a {
+	color: var(--primary) !important;
 }

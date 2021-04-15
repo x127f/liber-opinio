@@ -1,4 +1,14 @@
-import { AppBar, Toolbar, IconButton, List, ListItem, ListItemText, makeStyles, Container } from "@material-ui/core";
+import {
+	AppBar,
+	Toolbar,
+	IconButton,
+	List,
+	ListItem,
+	ListItemText,
+	makeStyles,
+	Container,
+	Tooltip,
+} from "@material-ui/core";
 import { Home } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 
@@ -30,18 +40,22 @@ export const Header = () => {
 		<AppBar position="sticky">
 			<Toolbar>
 				<Container className={classes.navbarDisplayFlex}>
-					<Link to="/">
-						<IconButton edge="start" color="inherit" aria-label="home">
-							<Home fontSize="large"></Home>
-						</IconButton>
-					</Link>
+					<Tooltip title="HOME" arrow>
+						<Link to="/">
+							<IconButton edge="start" color="inherit" aria-label="home">
+								<Home fontSize="large"></Home>
+							</IconButton>
+						</Link>
+					</Tooltip>
 					<List component="nav" aria-labelledby="main navigation" className={classes.navDisplayFlex}>
 						{navLinks.map(({ title, path }) => (
-							<Link to={path} key={title} className={classes.linkText}>
-								<ListItem button>
-									<ListItemText primary={title} />
-								</ListItem>
-							</Link>
+							<Tooltip title={title.toUpperCase()} key={title} arrow>
+								<Link to={path} className={classes.linkText}>
+									<ListItem button>
+										<ListItemText primary={title} />
+									</ListItem>
+								</Link>
+							</Tooltip>
 						))}
 					</List>
 				</Container>

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 
 import { Header } from "./components/Header";
+import Footer from "./components/Footer";
 
 import Main from "./components/sites/Main";
 import Github from "./components/sites/Github";
@@ -14,7 +15,7 @@ function App() {
 		<Router>
 			<div className="App">
 				<CssBaseline></CssBaseline>
-				<Header></Header>
+				<Header />
 				<Switch>
 					<Route exact path="/">
 						<Main></Main>
@@ -26,6 +27,7 @@ function App() {
 						<Faq></Faq>
 					</Route>
 				</Switch>
+				<Footer />
 			</div>
 		</Router>
 	);
