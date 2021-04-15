@@ -12,9 +12,9 @@
 	"license": "ISC",
 	"dependencies": {
 		"express": "^4.17.1",
-		"lambert-db": "^1.2.1",
+		"lambert-db": "^1.2.2",
 		"lambert-server": "^1.1.7",
-		"missing-native-js-functions": "^1.2.6"
+		"mongodb-memory-server": "^6.9.6"
 	},
 	"devDependencies": {
 		"@types/express": "^4.17.11",
