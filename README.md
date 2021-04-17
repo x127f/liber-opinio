@@ -11,18 +11,17 @@
     -   Lambert-db
 -   create a pr, we will review it
 
-## philosophy
+## Philosophy
 
 We, the devs started this project to allow the broad public to share their opinions on ressources outside of the multi
 billion dollar censoring companies ecosystems.
 
-We, the devs share the idea of basic human rights:    
+We, the devs share the idea of [human rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights):
 
 > Article 19:
 >
-> Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.
-
-_href: https://www.un.org/en/about-us/universal-declaration-of-human-rights_ 
+> Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without
+> interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.
 
 We, the devs will not remove any content to aid the previously mentioned article of the declaration of human rights.
 
@@ -33,8 +32,8 @@ We, the devs do not fingerprint, identify or store any data about the users. (No
 
 We, the devs belive in free software and therefore are using the `GNU General Public License v3.0`.
 
-## name
+## Name
 
-liber-opinio (lat.) 
+liber-opinio (lat.)
 
 -> free opinion
