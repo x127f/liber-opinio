@@ -37,3 +37,11 @@ We, the devs belive in free software and therefore are using the `GNU General Pu
 liber-opinio (lat.)
 
 -> free opinion
+
+## Changelog:
+> our important/big commits always include somesort of patch-/changelog
+
+_so view [Commit history](https://github.com/x127f/liber-opinio/commits/main)_
+
+## Preview:
+> view a frontend preview [here](https://github.com/xNaCly/liber-opinio/commits/main)
