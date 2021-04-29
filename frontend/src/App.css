@@ -1,6 +1,6 @@
 :root {
 	--primary: white;
-	--secondary: "";
+	--secondary: rgb(100, 99, 99);
 }
 
 * > body {
@@ -28,9 +28,18 @@ a:visited {
 	padding-bottom: 0.75rem;
 	color: grey;
 }
-.Footer a {
-	/*color: var(--primary) !important;*/
-}
 .navbar {
 	background-color: var(--primary) !important;
+}
+.not_found {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-weight: 500;
+	font-size: 5rem;
+}
+.not_found > span.smaller_text {
+	font-size: 1rem;
+	color: var(--secondary);
 }
