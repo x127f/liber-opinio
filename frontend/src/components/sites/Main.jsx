@@ -2,95 +2,62 @@ import { Container } from "@material-ui/core";
 
 function Main() {
 	return (
-		<Container maxWidth="md">
-			<h1>MAIN</h1>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-				fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt mollit anim id est laborum."
-			</p>
-			<p>
-				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-				rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-				explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-				consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-				dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-				incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-				exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-				vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
-				qui dolorem eum fugiat quo voluptas nulla pariatur?"
-			</p>
-			<p>
-				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-				deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
-				provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-				Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
-				eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas
-				assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum
-				necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum
-				rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
-				perferendis doloribus asperiores repellat."
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-				fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt mollit anim id est laborum."
-			</p>
-			<p>
-				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-				rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-				explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-				consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-				dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-				incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-				exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-				vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
-				qui dolorem eum fugiat quo voluptas nulla pariatur?"
-			</p>
-			<p>
-				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-				deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
-				provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-				Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
-				eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas
-				assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum
-				necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum
-				rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
-				perferendis doloribus asperiores repellat."
-			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-				dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-				fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt mollit anim id est laborum."
-			</p>
-			<p>
-				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-				rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-				explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-				consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-				dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-				incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-				exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-				vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
-				qui dolorem eum fugiat quo voluptas nulla pariatur?"
-			</p>
-			<p>
-				At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-				deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
-				provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-				Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
-				eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas
-				assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum
-				necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum
-				rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
-				perferendis doloribus asperiores repellat."
-			</p>
+		<Container maxWidth="md" className="main_container">
+			<div className="secondary_container">
+				<span className="title">About</span>
+				<span className="content">
+					<p>
+						Liber-Opinio is a platform to anonymously and without being censored discuss the content of any
+						website
+					</p>
+				</span>
+			</div>
+			<div className="secondary_container">
+				<span className="title">Philosphy</span>
+				<span className="content">
+					<p>
+						We, the devs started this project to allow the broad public to share their opinions on
+						ressources outside of the multi billion dollar censoring companies ecosystems.
+					</p>
+					<p>
+						We, the devs share the idea of{" "}
+						<a href="https://www.un.org/en/about-us/universal-declaration-of-human-rights">
+							Human Rights (Article 19)
+						</a>
+					</p>
+					<p className="quote">
+						Everyone has the right to freedom of opinion and expression; this right includes freedom to hold
+						opinions without interference and to seek, receive and impart information and ideas through any
+						media and regardless of frontiers.
+					</p>
+					<p>
+						We, the devs will not remove any content to aid the previously mentioned article of the
+						declaration of human rights.
+					</p>
+					<p>
+						We, the devs intended this project to aid the platform independed exchange of opinions,
+						therefore we allow users to comment on every ressource they intend to comment on.
+					</p>
+					<p>
+						We, the devs do not fingerprint, identify or store any data about the users. (Not clientside nor
+						serverside)
+					</p>
+					<p>
+						We, the devs belive in free software and therefore are using the{" "}
+						<code className="code">GNU General Public License v3.0</code>.
+					</p>
+					<a href="https://github.com/x127f/liber-opinio">Source code</a>
+				</span>
+			</div>
+			<div className="secondary_container">
+				<span className="title">Name</span>
+				<span className="content">
+					<p>
+						liber-opinio <code>(lat.)</code>
+					</p>
+					<p className="quote">free opinion</p>
+				</span>
+			</div>
 		</Container>
 	);
 }

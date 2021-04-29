@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 
 import { Header } from "./components/Header";
-import Footer from "./components/Footer";
+//import Footer from "./components/Footer";
 
 import Main from "./components/sites/Main";
 import Ressource from "./components/sites/Ressource";
@@ -31,7 +31,7 @@ function App() {
 					<Route path="/re/:ressource_url" component={Ressource}></Route>
 					<Route path="*" component={NotFound}></Route>
 				</Switch>
-				<Footer />
+				{/*<Footer />*/}
 			</div>
 		</Router>
 	);
