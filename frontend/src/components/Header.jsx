@@ -42,7 +42,9 @@ export const Header = () => {
 	const [search, updateSearch] = useState("");
 
 	const Submit = (href) => {
+		href = encodeURIComponent(href);
 		history.push(`/re/${href}`);
+		console.log(href);
 	};
 
 	return (
