@@ -35,5 +35,4 @@ function App() {
 	);
 }
 
-//* Ressource used for dynamic routes: https://dev.to/dsckiitdev/dynamic-pages-using-react-router-2pm
 export default App;
