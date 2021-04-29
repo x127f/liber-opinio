@@ -40,6 +40,7 @@ liber-opinio (lat.)
 
 ## Changelog:
 > our important/big commits always include somesort of patch-/changelog
+
 _so view [Commit history](https://github.com/x127f/liber-opinio/commits/main)_
 
 ## Preview:
