@@ -7,6 +7,7 @@ import { Header } from "./components/Header";
 import Footer from "./components/Footer";
 
 import Main from "./components/sites/Main";
+import Ressource from "./components/sites/Ressource";
 import Github from "./components/sites/Github";
 import Faq from "./components/sites/Faq";
 
@@ -26,6 +27,7 @@ function App() {
 					<Route exact path="/faq">
 						<Faq></Faq>
 					</Route>
+					<Route path="/re/:ressource_url" component={Ressource}></Route>
 				</Switch>
 				<Footer />
 			</div>
@@ -33,4 +35,5 @@ function App() {
 	);
 }
 
+//* Ressource used for dynamic routes: https://dev.to/dsckiitdev/dynamic-pages-using-react-router-2pm
 export default App;
