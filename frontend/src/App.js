@@ -10,6 +10,7 @@ import Main from "./components/sites/Main";
 import Ressource from "./components/sites/Ressource";
 import Github from "./components/sites/Github";
 import Faq from "./components/sites/Faq";
+import NotFound from "./components/sites/NotFound";
 
 function App() {
 	return (
@@ -28,6 +29,7 @@ function App() {
 						<Faq></Faq>
 					</Route>
 					<Route path="/re/:ressource_url" component={Ressource}></Route>
+					<Route path="*" component={NotFound}></Route>
 				</Switch>
 				<Footer />
 			</div>
