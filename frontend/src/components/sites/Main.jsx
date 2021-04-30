@@ -9,7 +9,7 @@ function Main() {
 				<span className="content">
 					<p>
 						Liber-Opinio is a platform to anonymously and without being censored discuss the content of any
-						website
+						website.
 					</p>
 				</span>
 				<div className="link_container">
@@ -25,8 +25,8 @@ function Main() {
 				<span className="title">Philosphy</span>
 				<span className="content">
 					<p>
-						We, the devs started this project to allow the broad public to share their opinions on
-						ressources outside of the multi billion dollar censoring companies ecosystems.
+						We, the devs started this project to allow the broad public to share their opinions on resources
+						outside of the multi billion-dollar censoring companies ecosystems.
 					</p>
 					<p>
 						We, the devs share the idea of{" "}
@@ -44,7 +44,7 @@ function Main() {
 						declaration of human rights.
 					</p>
 					<p>
-						We, the devs intended this project to aid the platform independed exchange of opinions,
+						We, the devs intended this project to aid the platform-independet exchange of opinions,
 						therefore we allow users to comment on every ressource they intend to comment on.
 					</p>
 					<p>
@@ -52,12 +52,12 @@ function Main() {
 						serverside)
 					</p>
 					<p>
-						We, the devs belive in free software and therefore are using the{" "}
+						We, the devs believe in free software and therefore are using the{" "}
 						<code className="code">GNU General Public License v3.0</code>.
 					</p>
-					<a className="a" href="https://github.com/x127f/liber-opinio">
+					{/*<a className="button" href="https://github.com/x127f/liber-opinio">
 						Source code
-					</a>
+						</a>*/}
 				</span>
 			</div>
 			<div className="secondary_container">
