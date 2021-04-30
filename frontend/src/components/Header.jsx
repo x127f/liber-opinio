@@ -3,26 +3,26 @@ import {
 	Toolbar,
 	IconButton,
 	List,
-	ListItem,
-	ListItemText,
+	//	ListItem,
+	//	ListItemText,
 	makeStyles,
 	Container,
 	Tooltip,
-	TextField,
 } from "@material-ui/core";
 import { Home } from "@material-ui/icons";
 import { Link, useHistory } from "react-router-dom";
 import { useState } from "react";
 
-const navLinks = [
+/*const navLinks = [
 	{ title: `github`, path: `/github` },
 	{ title: `faq`, path: `/faq` },
-];
+];*/
 
 const useStyles = makeStyles({
 	navbarDisplayFlex: {
 		display: `flex`,
 		justifyContent: `space-between`,
+		"align-items": `center`,
 	},
 	navDisplayFlex: {
 		display: `flex`,
@@ -32,7 +32,7 @@ const useStyles = makeStyles({
 	linkText: {
 		textDecoration: `none`,
 		textTransform: `uppercase`,
-		color: `grey`,
+		color: `white`,
 	},
 });
 
@@ -54,27 +54,24 @@ export const Header = () => {
 					<Tooltip title="HOME" arrow>
 						<Link to="/">
 							<IconButton edge="start" aria-label="home">
-								<Home fontSize="large"></Home>
+								<Home className="home_button" fontSize="large"></Home>
 							</IconButton>
 						</Link>
 					</Tooltip>
 					<List component="nav" aria-labelledby="main navigation" className={classes.navDisplayFlex}>
 						<form
-							id="field-container"
-							noValidate
-							autoComplete="off"
 							onSubmit={(e) => {
 								e.preventDefault();
 								Submit(search);
 							}}>
-							<TextField
-								id="filled-basic"
-								label="Search"
-								variant="filled"
+							<input
+								type="text"
+								className="search_field"
+								placeholder="Search"
 								onChange={(e) => updateSearch(e.target.value)}
 							/>
 						</form>
-						{navLinks.map(({ title, path }) => (
+						{/*navLinks.map(({ title, path }) => (
 							<Tooltip title={title.toUpperCase()} key={title} arrow>
 								<Link to={path} className={classes.linkText}>
 									<ListItem button>
@@ -82,7 +79,7 @@ export const Header = () => {
 									</ListItem>
 								</Link>
 							</Tooltip>
-						))}
+						))*/}
 					</List>
 				</Container>
 			</Toolbar>
