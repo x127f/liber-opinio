@@ -1,4 +1,5 @@
 import { Container } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 function Main() {
 	return (
@@ -11,6 +12,14 @@ function Main() {
 						website
 					</p>
 				</span>
+				<div className="link_container">
+					<Link class="button" to={`/re/${encodeURIComponent("https://github.com/x127f/liber-opinio")}`}>
+						Try it
+					</Link>
+					<a class="button" href="https://github.com/x127f/liber-opinio">
+						Github
+					</a>
+				</div>
 			</div>
 			<div className="secondary_container">
 				<span className="title">Philosphy</span>
@@ -21,7 +30,7 @@ function Main() {
 					</p>
 					<p>
 						We, the devs share the idea of{" "}
-						<a href="https://www.un.org/en/about-us/universal-declaration-of-human-rights">
+						<a className="a" href="https://www.un.org/en/about-us/universal-declaration-of-human-rights">
 							Human Rights (Article 19)
 						</a>
 					</p>
@@ -46,7 +55,9 @@ function Main() {
 						We, the devs belive in free software and therefore are using the{" "}
 						<code className="code">GNU General Public License v3.0</code>.
 					</p>
-					<a href="https://github.com/x127f/liber-opinio">Source code</a>
+					<a className="a" href="https://github.com/x127f/liber-opinio">
+						Source code
+					</a>
 				</span>
 			</div>
 			<div className="secondary_container">

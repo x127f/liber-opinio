@@ -34,7 +34,11 @@ body {
 a {
 	color: var(--frost2);
 }
-
+.a {
+	text-decoration: none;
+	padding-bottom: 0.1rem;
+	border-bottom: 1px solid var(--frost2);
+}
 a:visited {
 	color: var(--frost4);
 }
@@ -134,6 +138,22 @@ a:visited {
 	font-size: 0.8rem;
 }
 
+.button {
+	background-color: var(--frost3);
+	border: none;
+	color: var(--text3) !important;
+	text-decoration: none;
+	padding: 0.5rem;
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+	border-radius: 0.5rem;
+	font-size: 1.5rem;
+	margin-right: 1rem;
+}
+.link_container {
+	display: flex;
+	align-items: center;
+}
 @media screen and (max-width: 1000px) {
 	.search_field {
 		width: 50vw;
