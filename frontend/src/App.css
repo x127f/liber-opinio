@@ -106,11 +106,15 @@ a:visited {
 	height: 100%;
 }
 .secondary_container .title {
-	color: var(--text3);
-	font-size: 2rem;
+	color: var(--frost3);
+	font-size: 3rem;
+}
+.secondary_container > .link_container {
+	margin-left: 1rem;
 }
 .secondary_container .content {
 	color: var(--text1) !important;
+	margin-left: 1rem;
 }
 .search_field {
 	color: var(--text3) !important;
@@ -134,8 +138,10 @@ a:visited {
 	padding-left: 1rem;
 	margin-left: 1rem;
 	font-style: italic;
-	border-left: 1px solid var(--text1);
+	border-left: 0.2rem solid var(--frost2);
+	border-radius: 0.2rem;
 	color: var(--text4);
+	background-color: var(--primary);
 }
 .code {
 	padding: 0.3rem;
