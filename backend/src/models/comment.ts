@@ -16,9 +16,7 @@ export const Comment = {
 
 export interface CreateComment {
 	content: String;
-	author: String;
 }
 export const CreateComment = {
 	content: String,
-	author: String,
 };
