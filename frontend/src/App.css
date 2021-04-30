@@ -145,7 +145,6 @@ a:visited {
 	padding: 1rem;
 	border-radius: 0.5rem;
 	font-size: 1.1rem;
-	/*margin-right: 1rem;*/
 	width: 25vw;
 }
 .MuiToolbar-gutters {
@@ -183,6 +182,7 @@ a:visited {
 	border-radius: 0.5rem;
 	font-size: 1.5rem;
 	margin-right: 1rem;
+	transition: linear box-shadow 200ms;
 }
 .button.success {
 	background-color: var(--aur4);
@@ -196,6 +196,7 @@ a:visited {
 	background-color: var(--aur1);
 }
 .button:hover {
+	box-shadow: rgba(15, 17, 21, 0.3) 0px 10px 20px 2px;
 	color: var(--text1-hover);
 	background-color: var(--frost3-hover);
 }
@@ -245,6 +246,47 @@ a:visited {
 .showcase_container > button {
 	margin: 1rem;
 }
+.comment_section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.comment {
+	width: 60vw;
+	border-radius: 0.5rem;
+	background-color: var(--third-hover);
+	margin-bottom: 2rem;
+	transition: linear box-shadow 200ms;
+}
+.comment:hover {
+	box-shadow: rgba(15, 17, 21, 0.3) 0px 10px 20px 2px;
+}
+.comment_header {
+	padding: 2rem;
+	width: 100%;
+	flex-wrap: wrap;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	background-color: var(--secondary);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: left;
+}
+.comment_header > .author {
+	color: var(--text1);
+}
+.comment_header > .date {
+	color: var(--text4);
+	font-style: italic;
+	font-size: 1rem;
+}
+.comment_content {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin: 2rem;
+}
 /*test*/
 @media screen and (max-width: 1000px) {
 	.search_field {
@@ -253,8 +295,7 @@ a:visited {
 	.secondary_container {
 		margin-bottom: 1rem;
 	}
-	.link_container {
-		width: 100%;
-		justify-content: center;
+	.comment {
+		width: 90vw;
 	}
 }
