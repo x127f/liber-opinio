@@ -8,8 +8,8 @@ import { Header } from "./components/Header";
 
 import Main from "./components/sites/Main";
 import Ressource from "./components/sites/Ressource";
-import Github from "./components/sites/Github";
-import Faq from "./components/sites/Faq";
+//import Github from "./components/sites/Github";
+//import Faq from "./components/sites/Faq";
 import NotFound from "./components/sites/NotFound";
 
 function App() {
@@ -22,12 +22,12 @@ function App() {
 					<Route exact path="/">
 						<Main></Main>
 					</Route>
-					<Route exact path="/github">
+					{/*<Route exact path="/github">
 						<Github></Github>
 					</Route>
 					<Route exact path="/faq">
 						<Faq></Faq>
-					</Route>
+					</Route>*/}
 					<Route path="/re/:ressource_url" component={Ressource}></Route>
 					<Route path="*" component={NotFound}></Route>
 				</Switch>
