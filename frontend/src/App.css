@@ -54,9 +54,11 @@ a:visited {
 	color: var(--frost4) !important;
 }
 .navbar {
-	background-color: var(--primary) !important;
+	background-color: transparent /*var(--frost5)*/ !important;
 	margin-bottom: 3rem;
-	box-shadow: 0px 2px 4px -1px var(--frost5), 0px 4px 5px 0px var(--frost5), 0px 1px 10px 0px var(--frost5) !important;
+	backdrop-filter: blur(1rem);
+	/*box-shadow: 0px 2px 4px -1px var(--frost5), 0px 4px 5px 0px var(--frost5), 0px 1px 10px 0px var(--frost5) !important;*/
+	box-shadow: none !important;
 }
 .not_found {
 	display: flex;
