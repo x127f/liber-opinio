@@ -246,17 +246,32 @@ a:visited {
 .showcase_container > button {
 	margin: 1rem;
 }
-.comment_section {
+.comment_section,
+.reply_section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-.comment {
-	width: 60vw;
+.reply_section {
+	align-items: flex-end;
+}
+.comment_container {
+	width: 70%;
+	margin-bottom: 2rem;
+}
+.comment,
+.reply {
+	width: 100%;
 	border-radius: 0.5rem;
 	background-color: var(--third-hover);
 	margin-bottom: 2rem;
 	transition: linear box-shadow 200ms;
+}
+.comment {
+	padding-bottom: 0.5rem;
+}
+.reply {
+	width: 90%;
 }
 .comment:hover {
 	box-shadow: rgba(15, 17, 21, 0.3) 0px 10px 20px 2px;
@@ -294,8 +309,5 @@ a:visited {
 	}
 	.secondary_container {
 		margin-bottom: 1rem;
-	}
-	.comment {
-		width: 90vw;
 	}
 }
