@@ -13,7 +13,7 @@
 
 ## Changelog:
 
-> our important/big commits always include somesort of patch-/changelog
+> our important/big commits always include some sort of patch-/changelog
 
 _so view [Commit history](https://github.com/x127f/liber-opinio/commits/main)_
 
