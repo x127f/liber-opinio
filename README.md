@@ -19,4 +19,4 @@ _so view [Commit history](https://github.com/x127f/liber-opinio/commits/main)_
 
 ## Preview:
 
-> view a frontend preview [here](https://github.com/xNaCly/liber-opinio/commits/main)
+> view a frontend preview [here](https://github.com/x127f/liber-opinio/commits/main)
